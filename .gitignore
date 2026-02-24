@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Large model files (ResNet50 exceeds GitHub's 100MB limit)
+*resnet50*.keras
+
+# Dataset (too large - 2.7GB, friend should download separately)
+preprocessed_data/
+data/
+dataset/
+*.zip
+*.tar.gz
+
+# Archive folder (old notebooks and research papers - not needed)
+archive/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~

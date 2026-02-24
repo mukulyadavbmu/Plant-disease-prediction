@@ -1,0 +1,5 @@
+Model,Test Accuracy (%),Per-Class Accuracy (%),Test Loss,Parameters (M),Trainable Params (M)
+MobileNetV2,88.39,88.46,0.3621,2.93,0.68
+Custom CNN,67.88,67.9,3.1111,12.96,12.96
+ResNet50,35.49,35.44,2.1953,24.66,1.07
+EfficientNetB0,2.87,2.63,3.636,4.72,0.68

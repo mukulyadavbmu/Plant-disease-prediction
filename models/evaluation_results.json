@@ -1,0 +1,30 @@
+{
+    "Custom CNN": {
+        "test_accuracy": 0.6787502765655518,
+        "test_loss": 3.1110751628875732,
+        "avg_per_class_accuracy": 0.6790296238191617,
+        "total_params": 12958310,
+        "trainable_params": 12958310
+    },
+    "MobileNetV2": {
+        "test_accuracy": 0.8839061856269836,
+        "test_loss": 0.36207687854766846,
+        "avg_per_class_accuracy": 0.884560042885414,
+        "total_params": 2933350,
+        "trainable_params": 675366
+    },
+    "EfficientNetB0": {
+        "test_accuracy": 0.02868199348449707,
+        "test_loss": 3.635986089706421,
+        "avg_per_class_accuracy": 0.02631578947368421,
+        "total_params": 4724937,
+        "trainable_params": 675366
+    },
+    "ResNet50": {
+        "test_accuracy": 0.35488277673721313,
+        "test_loss": 2.195301055908203,
+        "avg_per_class_accuracy": 0.3543573324781236,
+        "total_params": 24656294,
+        "trainable_params": 1068582
+    }
+}
