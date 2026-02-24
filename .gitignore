@@ -30,9 +30,8 @@ env/
 .ipynb_checkpoints
 *.ipynb_checkpoints/
 
-# Large model files (exceed GitHub's 100MB limit)
-*resnet50*.keras
-baseline_cnn_model.keras
+# Large model files (now tracked with Git LFS)
+# *.keras files are tracked with Git LFS
 *.h5
 *.hdf5
 
