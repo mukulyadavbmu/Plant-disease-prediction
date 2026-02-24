@@ -30,10 +30,13 @@ env/
 .ipynb_checkpoints
 *.ipynb_checkpoints/
 
-# Large model files (ResNet50 exceeds GitHub's 100MB limit)
+# Large model files (exceed GitHub's 100MB limit)
 *resnet50*.keras
+baseline_cnn_model.keras
+*.h5
+*.hdf5
 
-# Dataset (too large - 2.7GB, friend should download separately)
+# Dataset (too large - 2.7GB, should download separately)
 preprocessed_data/
 data/
 dataset/
